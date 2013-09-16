@@ -1,0 +1,324 @@
+.tag-wrapper {
+    display: block;
+    position: relative;
+    color: black;
+}
+
+.tag-item{ float:left; padding-right:10px; }
+
+
+.tag-target, .tag-wrapper img {
+    cursor: crosshair;
+}
+
+.tag-wrapper img {
+   position: absolute;
+}
+
+.tag-target {
+    display: none;
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.tag-input {
+    background: #fff;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    z-index: 2;
+}
+
+.tag-input label {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+.tag-input input {
+    border: 1px solid #ccc;
+    color: #000000;
+    display: block;
+    margin: 5px 0px;
+    outline: 0px;
+    padding: 3px;
+    width: 180px;
+}
+
+.tag-categories {
+    background: #EEE;
+    padding:3px;
+    margin:3px 0;
+    height: 160px;
+    overflow: scroll;
+}
+
+.tag-category {
+    cursor: pointer;
+}
+
+.tag-category:hover{
+    background:#cccccc;
+}
+
+.hotspot {
+    border-width: 0px;
+    box-shadow: 0px 0px 0px #000;
+    -webkit-box-shadow: 0px 0px 0px #000;
+    -moz-box-shadow: 0px 0px 0px #000;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    color:black;
+}
+
+.hotspot:hover, .hotspothover {
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    z-index: 1;
+}
+
+.hotspot-label {
+    display: none;
+    position: absolute;
+    width:auto;
+}
+.hotspothover.hotspot-label {
+    background-color: #000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    color:white;
+    display: block;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    border: none;
+}
+
+.remove {
+    color: #748950;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ac_results {
+    color:black;
+}
+
+/*
+ * imgAreaSelect default style
+ */
+
+.imgareaselect-border1 {
+	background: url(border-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(border-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(border-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(border-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-outer {
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-selection {  
+}
+
+.existing{
+    color:#F26522;
+}
+
+/*
+
+.tag-wrapper {
+    display: block;
+    position: relative;
+    color: black;
+}
+
+.tag-target, #tag-wrapper img {
+    cursor: crosshair;
+}
+
+.tag-wrapper img {
+    position: absolute;
+}
+
+.tag-target {
+    display: none;
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.tag-input {
+    background: #fff;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    z-index: 2;
+}
+
+.tag-input label {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+.tag-input input {
+    border: 1px solid #ccc;
+    color: #888;
+    display: block;
+    margin: 5px 0px;
+    outline: 0px;
+    padding: 3px;
+    width: 180px;
+}
+
+.tag-categories {
+    background: #EEE;
+    padding:3px;
+    margin:3px 0;
+    height: 160px;
+    overflow: scroll;
+}
+
+.tag-category {
+    cursor: pointer;
+}
+
+.hotspot {
+    border-width: 0px;
+    box-shadow: 0px 0px 0px #000;
+    -webkit-box-shadow: 0px 0px 0px #000;
+    -moz-box-shadow: 0px 0px 0px #000;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    color:black;
+}
+
+.hotspot:hover, .hotspothover {
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    z-index: 1;
+}
+
+.hotspot-label {
+    display: none;
+    position: absolute;
+    width:auto;
+}
+.hotspothover.hotspot-label {
+    background-color: #000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    color:white;
+    display: block;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    border: none;
+}
+
+.remove {
+    color: #748950;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ac_results {
+    color:black;
+}
+
+
+
+.imgareaselect-border1 {
+	background: url(border-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(border-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(border-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(border-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-outer {
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-selection {  
+}
+
+.existing{
+    color:#F26522;
+}
+
+*/
